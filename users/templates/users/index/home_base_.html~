@@ -1,0 +1,8 @@
+{% block title %}Articles for {{ year }}{% endblock %}
+
+{% block content %}
+<h1>Articles for</h1>
+    <p>{{ text1 }}</p>
+    <p>By {{ text2 }}</p>
+    <p>Published {{ article.pub_date|date:"F j, Y" }}</p>
+{% endblock %}
